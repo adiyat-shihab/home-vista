@@ -1,7 +1,6 @@
 "use client";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import auth from "../../../firebase.config";
-import Navbar from "@/component/Navbar";
 
 const Login = () => {
   const handleLogin = (formData) => {
